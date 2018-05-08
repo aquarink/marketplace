@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: 
+Disallow: /application
+Disallow: /resources
+Disallow: /system
