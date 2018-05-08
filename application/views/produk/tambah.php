@@ -78,7 +78,7 @@
 		<div class="d-flex align-items-center">
 			<div class="mr-auto">
 				<h3 class="m-subheader__title ">
-					Dashboard
+					Tambah Produk
 				</h3>
 			</div>
 			<div>
@@ -98,8 +98,136 @@
 	<div class="m-content">
 		<!--Begin::Section-->
 		<div class="row">
-			<div class="col-xl-4">
-				ddd
+			<div class="col-xl-12">
+
+				<div class="m-portlet" id="m_portlet">
+					<div class="m-portlet__head">
+						<div class="m-portlet__head-caption">
+							<div class="m-portlet__head-title">
+								<h3 class="m-portlet__head-text">
+									Informasi Produk
+								</h3>
+							</div>
+						</div>
+					</div>
+					<form class="m-form m-form--state">
+						<div class="m-portlet__body">
+							<div class="form-group m-form__group has-success">
+								<label class="form-control-label" for="inputSuccess1">
+									Nama Produk
+								</label>
+								<span class="m-form__help">
+									Tulis nama produk sesuai jenis, merek, dan rincian produk.
+								</span>
+								<input type="text" name="name" placeholder="Masukkan Judul Produk Anda..." class="form-control form-control-success m-input" id="">
+							</div>
+
+							<div class="form-group m-form__group has-success">
+								<label class="form-control-label" for="inputSuccess1">
+									Gambar Produk
+								</label>
+								<span class="m-form__help">
+									Format gambar .jpg .jpeg .png dan ukuran minimum 300 x 300px (Untuk gambar optimal gunakan ukuran 700 x 700 px)
+								</span>
+								<div class="col-lg-4 col-md-9 col-sm-12">
+									<div class="m-dropzone dropzone m-dropzone--primary" action="inc/api/dropzone/upload.php" id="m-dropzone-two">
+										<div class="m-dropzone__msg dz-message needsclick">
+											<h3 class="m-dropzone__msg-title">
+												Drop files here or click to upload.
+											</h3>
+											<span class="m-dropzone__msg-desc">
+												Upload up to 10 files
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="form-group m-form__group has-success">
+								<label class="form-control-label" for="inputSuccess1">
+									Kategori
+								</label>
+								<span class="m-form__help">
+									Pilih kategori produk.
+								</span>
+								<select class="form-control form-control-success m-input">
+									<option>a</option>
+								</select>
+							</div>
+
+
+							<div class="form-group m-form__group has-danger">
+								<label class="form-control-label" for="inputDanger1">
+									Input with danger
+								</label>
+								<input type="text" class="form-control form-control-danger m-input" id="inputDanger1">
+								<div class="form-control-feedback">
+									Sorry, that username's taken. Try another?
+								</div>
+								<span class="m-form__help">
+									Example help text that remains unchanged.
+								</span>
+							</div>
+						</div>
+					</form>
+					
+				</div>
+
+				<div class="m-portlet" id="m_portlet">
+					<div class="m-portlet__head">
+						<div class="m-portlet__head-caption">
+							<div class="m-portlet__head-title">
+								<h3 class="m-portlet__head-text">
+									Harga Produk
+								</h3>
+							</div>
+						</div>
+					</div>
+					<form class="m-form m-form--state">
+						<div class="m-portlet__body">
+							<div class="form-group m-form__group has-success">
+								<label class="form-control-label" for="inputSuccess1">
+									Pemesanan Minimum / Buah
+								</label>
+								<span class="m-form__help">
+									Atur jumlah minimum yang harus dibeli untuk produk ini. Maksimum 10.000
+								</span>
+								<input type="number" name="name" class="form-control form-control-success m-input" id="" value="1">
+							</div>
+
+							<div class="form-group m-form__group has-success">
+								<label class="form-control-label" for="inputSuccess1">
+									Kategori
+								</label>
+								<span class="m-form__help">
+									Pilih kategori produk.
+								</span>
+								<select class="form-control form-control-success m-input">
+									<option>a</option>
+								</select>
+								
+								<div class="form-control-feedback">
+									Success! You've done it.
+								</div>
+							</div>
+
+
+							<div class="form-group m-form__group has-danger">
+								<label class="form-control-label" for="inputDanger1">
+									Input with danger
+								</label>
+								<input type="text" class="form-control form-control-danger m-input" id="inputDanger1">
+								<div class="form-control-feedback">
+									Sorry, that username's taken. Try another?
+								</div>
+								<span class="m-form__help">
+									Example help text that remains unchanged.
+								</span>
+							</div>
+						</div>
+					</form>
+					
+				</div>
 			</div>
 		</div>
 		<!--End::Section-->

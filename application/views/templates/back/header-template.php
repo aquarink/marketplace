@@ -28,6 +28,17 @@
 	<link href="<?php echo base_url(); ?>resources/assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />
 	<!--end::Base Styles -->
 	<link rel="shortcut icon" href="<?php echo base_url(); ?>resources/assets/demo/default/media/img/logo/favicon.ico" />
+	<style type="text/css">
+	input[type=number] {
+		-moz-appearance: textfield;
+
+	}
+	input[type=number]::-webkit-inner-spin-button, 
+	input[type=number]::-webkit-outer-spin-button { 
+		-webkit-appearance: none; 
+		margin: 0; 
+	}
+	</style>
 </head>
 <!-- end::Head -->
 <!-- end::Body -->
