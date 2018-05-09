@@ -205,9 +205,7 @@
 								Rp.
 							</label>
 							<div class="col-lg-3 col-md-9 col-sm-12">
-								<select style="border-color: #5867dd" name="name" class="form-control form-control-danger m-input" id="">
-									<option>aaaa</option>
-								</select>
+								<input style="border-color: #5867dd" type="number" name="namaProduk" class="form-control form-control-danger m-input" id="">
 							</div>
 						</div>
 					</div>
