@@ -48,8 +48,8 @@
 
 <!-- begin::Quick Nav -->	
 <!--begin::Base Scripts -->
-<script src="<?php echo base_url(); ?>resources/assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>resources/assets/demo/default/base/scripts.bundle.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>resources/assets/vendors/base/vendors.bundle.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>resources/assets/demo/default/base/scripts.bundle.min.js" type="text/javascript"></script>
 <!--end::Base Scripts -->   
 <!--begin::Page Vendors -->
 <script src="<?php echo base_url(); ?>resources/assets/vendors/custom/fullcalendar/fullcalendar.bundle.js" type="text/javascript"></script>
