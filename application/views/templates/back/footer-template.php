@@ -57,6 +57,12 @@
 <!--begin::Page Snippets -->
 <script src="<?php echo base_url(); ?>resources/assets/app/js/dashboard.js" type="text/javascript"></script>
 <!--end::Page Snippets -->
+
+
+<?php if($page == "produk/tambah") { ?>
+	<script src="<?php echo base_url(); ?>resources/assets/js/tambah.produk.js" type="text/javascript"></script>
+<?php } ?>
+
 </body>
 <!-- end::Body -->
 </html>

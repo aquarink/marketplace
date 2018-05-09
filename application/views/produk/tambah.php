@@ -238,7 +238,7 @@
 							<div class="col-md-9 col-sm-12">
 								<div class="m-radio-list">
 									<label class="m-radio">
-										<input type="radio" name="example_6" value="1">
+										<input checked="" type="radio" name="produkStok" value="tersedia">
 										Selalu tersedia
 										<span  style="border: 1px solid #5867dd"></span>
 									</label>
@@ -247,7 +247,7 @@
 									</span>
 
 									<label class="m-radio">
-										<input type="radio" name="example_6" value="2">
+										<input type="radio" name="produkStok" value="terbatas">
 										Stock terbatas
 										<span  style="border: 1px solid #5867dd"></span>
 									</label>
@@ -256,7 +256,7 @@
 									</span>
 
 									<label class="m-radio">
-										<input type="radio" name="example_6" value="3">
+										<input type="radio" name="produkStok" value="kosong">
 										Stok kosong
 										<span  style="border: 1px solid #5867dd"></span>
 									</label>
@@ -266,7 +266,7 @@
 							
 						</div>
 
-						<div class="form-group m-form__group row">
+						<div class="form-group m-form__group row" id="inputProdukStok">
 							<label class="col-form-label col-lg-3 col-sm-12">
 								Jumlah Stok
 								<span class="m-form__help">
@@ -274,7 +274,7 @@
 								</span>
 							</label>
 							<div class="col-lg-4 col-md-9 col-sm-12">
-								<input style="border-color: #5867dd" type="number" name="stokProduk" class="form-control form-control-danger m-input" id="" value="1">
+								<input style="border-color: #5867dd" type="number" name="inputProdukStok" class="form-control form-control-danger m-input" id="" value="1">
 							</div>
 						</div>
 					</div>
@@ -417,10 +417,6 @@
 				</div>
 
 				<!-- ============ PENGIRIMAN END ============ -->
-
-
-
-
 			</form>
 			<!--end::Form-->
 		</div>
@@ -428,5 +424,4 @@
 	</div>
 </div>
 </div>
-<!-- end:: Body -->
 

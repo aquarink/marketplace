@@ -26,8 +26,10 @@ class ProdukController extends CI_Controller {
 	public function tambah()
 	{
 		$data = array(
+						// title/page
+			'title' => 'Tambah Produk',
 						// folder/file
-			'pages' => 'produk/tambah'
+			'page' => 'produk/tambah'
 		);
 		$this->load->view('templates/back/back-template', $data);
 	}
