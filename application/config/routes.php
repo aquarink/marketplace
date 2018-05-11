@@ -54,4 +54,5 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 
-$route['produk/tambah'] = 'ProdukController/tambah';
+$route['produk/tambah'] 		= 'ProdukController/tambahForm';
+$route['produk/tambah/baru'] 	= 'ProdukController/tambahData';

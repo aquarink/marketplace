@@ -23,7 +23,7 @@ class ProdukController extends CI_Controller {
 		echo "Forbhident access : 404";
 	}
 
-	public function tambah()
+	public function tambahForm()
 	{
 		$data = array(
 						// title/page
@@ -32,5 +32,20 @@ class ProdukController extends CI_Controller {
 			'page' => 'produk/tambah'
 		);
 		$this->load->view('templates/back/back-template', $data);
+	}
+
+	public function tambahData()
+	{
+		foreach($_FILES as $f)
+		{
+			$gambarProduk[] = $f;
+		}
+
+		foreach($_POST as $name => $p)
+		{
+			$postData[$name] = $p;
+		}
+
+		echo json_encode($postData);
 	}
 }

@@ -58,8 +58,11 @@
 <script src="<?php echo base_url(); ?>resources/assets/app/js/dashboard.js" type="text/javascript"></script>
 <!--end::Page Snippets -->
 
+<script type="text/javascript">var baseUrl = "<?php echo base_url(); ?>";</script>
+
 
 <?php if($page == "produk/tambah") { ?>
+	<script src="<?php echo base_url(); ?>resources/assets/js/angularJSv1.2.32.js" type="text/javascript"></script>
 	<script src="<?php echo base_url(); ?>resources/assets/js/tambah.produk.js" type="text/javascript"></script>
 <?php } ?>
 
